@@ -16,3 +16,19 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
+/* 화면 크기 제한 */
+.container {
+  width: 1920px; /* 고정 너비 */
+  height: 8800px; /* 고정 높이 */
+  overflow: hidden; /* 벗어나는 요소 숨김 */
+  margin: 0 auto; /* 가운데 정렬 */
+  position: relative;
+  border: 1px solid #ccc; /* 컨테이너 확인용 */
+}
+
+/* 테스트용 콘텐츠 */
+.content {
+  width: 2000px; /* 의도적으로 화면 밖으로 나가게 설정 */
+  height: 9000px;
+  background: linear-gradient(to bottom, #ff7f50, #1e90ff);
+}
